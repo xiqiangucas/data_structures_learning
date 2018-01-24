@@ -160,6 +160,8 @@ if __name__=="__main__":
     qs=quicksort(lyst=lst)
     print(lst)
 
+    print("test mergesort")
     lst = [2, 4, 1, 5, 3, 5, 7, 1, 9, 0]
     ms=mergesort(lyst=lst)
     print(lst)
+
