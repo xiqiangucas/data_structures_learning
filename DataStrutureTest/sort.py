@@ -145,11 +145,21 @@ class mergesort():
 
 if __name__=="__main__":
     lst=[2,4,1,5,3,5,7,1,9,0]
-    # selectionSort(lst)
+    selectionSort(lst)
     print(lst)
-    # bubbleSort(lyst=lst)
-    # insertionSort(lst)
-    # print(lst)
-    # qs=quicksort(lyst=lst)
+
+    lst = [2, 4, 1, 5, 3, 5, 7, 1, 9, 0]
+    bubbleSort(lyst=lst)
+    print(lst)
+
+    lst = [2, 4, 1, 5, 3, 5, 7, 1, 9, 0]
+    insertionSort(lst)
+    print(lst)
+
+    lst = [2, 4, 1, 5, 3, 5, 7, 1, 9, 0]
+    qs=quicksort(lyst=lst)
+    print(lst)
+
+    lst = [2, 4, 1, 5, 3, 5, 7, 1, 9, 0]
     ms=mergesort(lyst=lst)
     print(lst)
